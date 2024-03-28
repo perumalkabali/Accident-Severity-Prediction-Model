@@ -75,6 +75,7 @@ NE_USaccidents <- na.omit(NE_USaccidents)
 dim(NE_USaccidents)
 
 
+
 #checking correlation btw all numeric variables and Severity
 NE_USaccidents_numCols <- NE_USaccidents %>% select_if(is.numeric)
 NE_USaccidents_numCols <- cbind(NE_USaccidents$Severity, NE_USaccidents_numCols)
