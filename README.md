@@ -56,6 +56,11 @@ Text mining of accident descriptions reveals common themes, including road closu
 ## Recommendations from Data Mining
 Recommendations include deploying traffic control measures, enhancing driver education, and promoting safer driving practices.
 
+## Further Study
+Further investigation could involve addressing data imbalance issues using techniques such as Synthetic Minority Over-sampling Technique (SMOTE) to improve model performance, especially in cases where the severe accident class is underrepresented. The variable "Severity" indicates the severity of the accident, with a number between 1 and 4, where:
+- 1 indicates the least impact on traffic (i.e., short delay as a result of the accident)
+- 4 indicates a significant impact on traffic (i.e., long delay).
+  
 ## Conclusion
 The project identifies significant predictors of accident severity and develops prediction models. Random forest modeling proves most effective, achieving 88% accuracy. The analysis offers insights into accident patterns and informs recommendations for mitigating road accidents.
 
