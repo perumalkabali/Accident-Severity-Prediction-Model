@@ -1,4 +1,4 @@
-# RoadRiskAlert: A Model for US Accident Severity Prediction
+# RoadRiskAlert: Predicting Accident Severity in the New England Region, USA
 
 ## Introduction
 Road accidents pose significant risks to public safety and often lead to traffic congestion. This project aims to analyze factors contributing to road accidents using the "US Accidents" dataset. The dataset contains 2,845,342 observations across 50 states and 47 variables. Given the dataset's size, analysis focuses on six New England states: Rhode Island, Maine, Massachusetts, Vermont, New Hampshire, and Connecticut. The project's primary objective is to predict accident severity, classified on a scale from 1 to 4, where 4 indicates the highest impact on traffic.
